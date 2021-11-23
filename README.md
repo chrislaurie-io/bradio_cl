@@ -4,4 +4,4 @@ The starting code for the B-Synergy Flutter contest 2022
 
 ## Contest Rules
 
-Still to be determined.
+Still to be determined. Can I push to master?
