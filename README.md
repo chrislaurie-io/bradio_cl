@@ -19,6 +19,6 @@ The starting code for the B-Synergy Flutter contest 2022 The contest is adjudica
 * The prize money is €500. How this is finally awarded is at the sole discretion of the judges.
 * All code must be written by the entrant - pairing allowed. Some code snippets may be copied from the internet.
 * Closing date of the contest is 28 February 2021
-* Entries will be reviewed by the judges and a winner announced as soon after closing as possible, hopefully bythe last bbq in March.
+* Entries will be reviewed by the judges and a winner announced as soon after closing as possible, hopefully by the last bbq in March.
 * Entries are to be submitted in the form of a Github code repository link. This should be different to this repository and master branch.
 * Rules will be amended as needed.
