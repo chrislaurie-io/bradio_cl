@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 582803ac0030323ac8e09628db2f899f74828b27 chris.laurie <chris.laurie@b-synergy.com> 1636706779 +0100	clone: from https://github.com/sjoenk/state_management_demo
+582803ac0030323ac8e09628db2f899f74828b27 dbcb59c0a85d66cf537bf1108bd3c2d954f6ddef chris.laurie <chris.laurie@b-synergy.com> 1636707037 +0100	checkout: moving from main to tags/step-0
+dbcb59c0a85d66cf537bf1108bd3c2d954f6ddef 7bda2cdb994751b0b6c1d5be9e205af40febd914 chris.laurie <chris.laurie@b-synergy.com> 1636707679 +0100	checkout: moving from dbcb59c0a85d66cf537bf1108bd3c2d954f6ddef to 7bda2cdb994751b0b6c1d5be9e205af40febd914
+7bda2cdb994751b0b6c1d5be9e205af40febd914 dbcb59c0a85d66cf537bf1108bd3c2d954f6ddef chris.laurie <chris.laurie@b-synergy.com> 1636707691 +0100	checkout: moving from 7bda2cdb994751b0b6c1d5be9e205af40febd914 to dbcb59c0a85d66cf537bf1108bd3c2d954f6ddef
+dbcb59c0a85d66cf537bf1108bd3c2d954f6ddef 7bda2cdb994751b0b6c1d5be9e205af40febd914 chris.laurie <chris.laurie@b-synergy.com> 1636709201 +0100	checkout: moving from dbcb59c0a85d66cf537bf1108bd3c2d954f6ddef to step-1
+7bda2cdb994751b0b6c1d5be9e205af40febd914 2369c31f3f2622e03dce2a0d6bde6cdbf9f00211 chris.laurie <chris.laurie@b-synergy.com> 1636709413 +0100	checkout: moving from 7bda2cdb994751b0b6c1d5be9e205af40febd914 to step-2
+2369c31f3f2622e03dce2a0d6bde6cdbf9f00211 60cabaf3ff9a5509596904238ae6f41e4585c567 chris.laurie <chris.laurie@b-synergy.com> 1636709859 +0100	checkout: moving from 2369c31f3f2622e03dce2a0d6bde6cdbf9f00211 to step-3
+60cabaf3ff9a5509596904238ae6f41e4585c567 a33bb352f47f949df8cba64545b103536bbe4b3c chris.laurie <chris.laurie@b-synergy.com> 1636711407 +0100	checkout: moving from 60cabaf3ff9a5509596904238ae6f41e4585c567 to step-4
