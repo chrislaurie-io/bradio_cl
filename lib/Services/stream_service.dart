@@ -7,9 +7,12 @@ import 'package:http/http.dart' as http;
 
 class StreamService{
   static final List<RadioStream> _streamList = [];
+
+  static bool isLoading = false;
   static List<RadioStream> get streamList => _streamList;
 
   static Future<int> getStreams() async {
+    isLoading = true;
     const url ='https://nl1.api.radio-browser.info/json/stations/bycountrycodeexact/NL?hidebroken=true&order=bitrate';
     try {
       var response = await http.get(Uri.parse(url));
@@ -32,6 +35,7 @@ class StreamService{
       debugPrint('getStrteams::ERROR:: $e');
     }
     debugPrint('getSTreams.done.streamCount=${_streamList.length}');
+    isLoading = false;
     return _streamList.length;
   }
 
@@ -39,5 +43,6 @@ class StreamService{
     _streamList.removeWhere((element) =>  element.name == stationName);
     debugPrint('StreamService.removeStreamByName($stationName).idx=${_streamList.indexWhere((element) =>  element.name == stationName)}');
   }
+
 
  }
