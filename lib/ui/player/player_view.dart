@@ -66,16 +66,12 @@ class PlayerView extends StatelessWidget {
   Widget _nowPlaying(double playerHeight, RadioPlayerState state) {
     return SizedBox(
       height: playerHeight,
-      child: Card(
-        margin: const EdgeInsets.all(10),
-        elevation: 8,
-        child: Center(
-          child: state.playingState == PlayingState.loading
-            ? const Center(
-                child: CircularProgressIndicator(),
-              )
-            : Text('${state.station}${state.title.isNotEmpty ? ':\n\n' : ''}${state.title}')
-        ),
+      child: Center(
+        child: state.playingState == PlayingState.loading
+          ? const Center(
+              child: CircularProgressIndicator(),
+            )
+          : Text('${state.station}${state.title.isNotEmpty ? ':\n\n' : ''}${state.title}')
       ),
     );
   }
